@@ -1,0 +1,84 @@
+.signUpPage {
+  width: 100%;
+  height: 100%;
+  background-color: #1b1a1a;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.signUpFormContainer {
+  background: #000;
+  border-radius: 32px;
+  max-width: 432px;
+  padding: 56px;
+  margin: 20px auto 10px;
+}
+
+.signUpFormContainer > h3 {
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  width: 330px;
+  color: #f0f0f0;
+  text-align: left;
+}
+
+.signUpForm > label {
+  margin: 7px 0;
+  font-size: 0.9em;
+}
+
+.signUpForm > input {
+  color: #000;
+  border: none;
+  padding:10px 8px;
+}
+.signUpForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.signUpInput {
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.signUpButton {
+  background: #7eec00;
+  border: none;
+  margin-top: 2rem;
+  align-self: center;
+  border-radius: 8px;
+  color: #000;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  height: 56px;
+  max-width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+.userPicture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.userIcon {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
